@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
-    vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000030.tlbin:system/app/mcRegistry/ffffffff000000000000000000000030.tlbin \
+    vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000038.tlbin:system/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:system/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffff000000000000000000000045.tlbin:system/app/mcRegistry/ffffffff000000000000000000000045.tlbin \
@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffffd00000000000000000000017.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000017.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
-    vendor/samsung/universal8895-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
     vendor/samsung/universal8895-common/proprietary/bin/lpm:system/bin/lpm \
     vendor/samsung/universal8895-common/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/samsung/universal8895-common/proprietary/etc/gps_debug.conf:system/etc/gps_debug.conf \
@@ -122,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.radio.sechook@1.0.so:system/lib/vendor.samsung.hardware.radio.sechook@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.radio@1.2.so:system/lib/vendor.samsung.hardware.radio@1.2.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:system/lib/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.trustonic.teeregistry@1.0.so:system/lib/vendor.trustonic.teeregistry@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth.a2dp@1.0.so:system/lib64/android.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth@1.0.so:system/lib64/android.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.0.so:system/lib64/android.hardware.gnss@1.0.so \
@@ -182,8 +180,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio.sechook@1.0.so:system/lib64/vendor.samsung.hardware.radio.sechook@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio@1.2.so:system/lib64/vendor.samsung.hardware.radio@1.2.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.trustonic.tee@1.0.so:system/lib64/vendor.trustonic.tee@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.trustonic.teeregistry@1.0.so:system/lib64/vendor.trustonic.teeregistry@1.0.so \
     vendor/samsung/universal8895-common/proprietary/media/battery_error.spi:system/media/battery_error.spi \
     vendor/samsung/universal8895-common/proprietary/media/battery_low.spi:system/media/battery_low.spi \
     vendor/samsung/universal8895-common/proprietary/media/battery_temperature_error.spi:system/media/battery_temperature_error.spi \
@@ -207,7 +203,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000012.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000013.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002f.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002f.tlbin \
-    vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000038.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000038.tlbin \
+    vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000030.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000030.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/samsung/universal8895-common/proprietary/vendor/app/mcRegistry/ffffffffd00000000000000000000014.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd00000000000000000000014.tlbin \
@@ -224,8 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.radio.configsvc@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
-    vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service \
-    vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.teeregistry@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/abox_debug.xml:$(TARGET_COPY_OUT_VENDOR)/etc/abox_debug.xml \
@@ -249,8 +243,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.radio.configsvc@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/wifi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/wifi_brcm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifi_brcm.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
@@ -339,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcRegistry.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
@@ -418,7 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libMcRegistry.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcRegistry.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
