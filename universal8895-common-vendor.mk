@@ -66,10 +66,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.1.so:system/lib/android.hardware.gnss@1.1.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.tetheroffload.config@1.0.so:system/lib/android.hardware.tetheroffload.config@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.wifi.supplicant@1.0.so:system/lib/android.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.wifi@1.0.so:system/lib/android.hardware.wifi@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.system.wifi.keystore@1.0.so:system/lib/android.system.wifi.keystore@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.primary.universal8895.so:system/lib/hw/audio.primary.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
@@ -126,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/universal8895-common/proprietary/lib/system.vendor.samsung.frameworks.ucm.wifi@1.0.so:system/lib/system.vendor.samsung.frameworks.ucm.wifi@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@1.0.so:system/lib/vendor.samsung.hardware.camera.device@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.2.so:system/lib/vendor.samsung.hardware.camera.device@3.2.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.3.so:system/lib/vendor.samsung.hardware.camera.device@3.3.so \
@@ -151,15 +146,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.1.so:system/lib64/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.nfc@1.0.so:system/lib64/android.hardware.nfc@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.nfc@1.1.so:system/lib64/android.hardware.nfc@1.1.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.tetheroffload.config@1.0.so:system/lib64/android.hardware.tetheroffload.config@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi.hostapd@1.0.so:system/lib64/android.hardware.wifi.hostapd@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi.offload@1.0.so:system/lib64/android.hardware.wifi.offload@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi.supplicant@1.0.so:system/lib64/android.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi.supplicant@1.1.so:system/lib64/android.hardware.wifi.supplicant@1.1.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi@1.0.so:system/lib64/android.hardware.wifi@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi@1.1.so:system/lib64/android.hardware.wifi@1.1.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.wifi@1.2.so:system/lib64/android.hardware.wifi@1.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.system.wifi.keystore@1.0.so:system/lib64/android.system.wifi.keystore@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/hw/camera.universal8895.so:system/lib64/hw/camera.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
@@ -204,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Decoder.so:system/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:system/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/system.vendor.samsung.frameworks.ucm.wifi@1.0.so:system/lib64/system.vendor.samsung.frameworks.ucm.wifi@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@1.0.so:system/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:system/lib64/vendor.samsung.hardware.camera.device@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.2.so:system/lib64/vendor.samsung.hardware.camera.device@3.2.so \
@@ -218,9 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio.secbridge@1.0.so:system/lib64/vendor.samsung.hardware.radio.secbridge@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio.sechook@1.0.so:system/lib64/vendor.samsung.hardware.radio.sechook@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio@1.2.so:system/lib64/vendor.samsung.hardware.radio@1.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so:system/lib64/vendor.samsung.hardware.wifi.hostapd@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so:system/lib64/vendor.samsung.hardware.wifi.supplicant@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.wifi@1.0.so:system/lib64/vendor.samsung.hardware.wifi@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so:system/lib64/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.trustonic.tee@1.0.so:system/lib64/vendor.trustonic.tee@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.trustonic.teeregistry@1.0.so:system/lib64/vendor.trustonic.teeregistry@1.0.so \
@@ -255,7 +237,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
-    vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/lhd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/lhd \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/macloader:$(TARGET_COPY_OUT_VENDOR)/bin/hw/macloader \
@@ -283,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.widevine.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.rc \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.vendor.rilchip.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilchip.rc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/init/init.vendor.rilcommon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.rilcommon.rc \
@@ -331,10 +311,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/nvram.txt_r02g_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_r02g_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/nvram.txt_r02j_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_r02j_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/wldu.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wldu.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/wlan_common_rc:$(TARGET_COPY_OUT_VENDOR)/etc/wlan_common_rc \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
@@ -434,8 +411,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvxu.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
@@ -493,8 +468,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libiva_android_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiva_android_hal.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
@@ -514,7 +487,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndsecril-client.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvxu.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
@@ -526,8 +498,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.2-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.3-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.frameworks.ucm.wifi@1.0.so
+    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
