@@ -58,12 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/nfc_key:system/etc/nfc_key \
     vendor/samsung/universal8895-common/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:system/lib/android.hardware.bluetooth.a2dp@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
-    vendor/samsung/universal8895-common/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.1.so:system/lib/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
@@ -122,11 +116,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@1.0.so:system/lib/vendor.samsung.hardware.camera.device@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.2.so:system/lib/vendor.samsung.hardware.camera.device@3.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.3.so:system/lib/vendor.samsung.hardware.camera.device@3.3.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.device@3.4.so:system/lib/vendor.samsung.hardware.camera.device@3.4.so \
-    vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.camera.provider@2.4.so:system/lib/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.gnss@1.0.so:system/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.radio.channel@1.0.so:system/lib/vendor.samsung.hardware.radio.channel@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.samsung.hardware.radio.secbridge@1.0.so:system/lib/vendor.samsung.hardware.radio.secbridge@1.0.so \
@@ -136,12 +125,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/vendor.trustonic.teeregistry@1.0.so:system/lib/vendor.trustonic.teeregistry@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth.a2dp@1.0.so:system/lib64/android.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.bluetooth@1.0.so:system/lib64/android.hardware.bluetooth@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.0.so:system/lib64/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.1.so:system/lib64/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.nfc@1.0.so:system/lib64/android.hardware.nfc@1.0.so \
@@ -191,11 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.VP9.Encoder.so:system/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.WMV.Decoder.so:system/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.bluetooth@1.0.so:system/lib64/vendor.samsung.hardware.bluetooth@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@1.0.so:system/lib64/vendor.samsung.hardware.camera.device@1.0.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.2.so:system/lib64/vendor.samsung.hardware.camera.device@3.2.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.3.so:system/lib64/vendor.samsung.hardware.camera.device@3.3.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.device@3.4.so:system/lib64/vendor.samsung.hardware.camera.device@3.4.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.camera.provider@2.4.so:system/lib64/vendor.samsung.hardware.camera.provider@2.4.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.gnss@1.0.so:system/lib64/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.nfc@1.1.so:system/lib64/vendor.samsung.hardware.nfc@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib64/vendor.samsung.hardware.radio.channel@1.0.so:system/lib64/vendor.samsung.hardware.radio.channel@1.0.so \
@@ -358,7 +336,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/sound_trigger.primary.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.universal8895.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
@@ -426,10 +403,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.4-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
@@ -441,7 +414,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
@@ -494,11 +466,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.sensorhub.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@1.0-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.2-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.3-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.camera.device@3.4-impl.so
+    vendor/samsung/universal8895-common/proprietary/vendor/lib64/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libswdap.so
 
 # Create Mali links for Vulkan and OpenCL
 PRODUCT_PACKAGES += libGLES_mali
