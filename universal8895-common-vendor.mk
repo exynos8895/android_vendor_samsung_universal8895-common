@@ -62,16 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.primary.universal8895.so:system/lib/hw/audio.primary.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
-    vendor/samsung/universal8895-common/proprietary/lib/hw/camera.universal8895.so:system/lib/hw/camera.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/lib/libExynosOMX_Core.so:system/lib/libExynosOMX_Core.so \
     vendor/samsung/universal8895-common/proprietary/lib/libExynosOMX_Resourcemanager.so:system/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libFacePreProcessing.camera.samsung.so:system/lib/libFacePreProcessing.camera.samsung.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libFacePreProcessing_jni.camera.samsung.so:system/lib/libFacePreProcessing_jni.camera.samsung.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libFacialBasedSelfieCorrection.camera.samsung.so:system/lib/libFacialBasedSelfieCorrection.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/lib/libGrallocWrapper.so:system/lib/libGrallocWrapper.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libIDDQD_core.so:system/lib/libIDDQD_core.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libIDDQD_interface.so:system/lib/libIDDQD_interface.so \
     vendor/samsung/universal8895-common/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/universal8895-common/proprietary/lib/lib_SamsungRec_06006.so:system/lib/lib_SamsungRec_06006.so \
     vendor/samsung/universal8895-common/proprietary/lib/lib_SoundAlive_SRC384_ver320.so:system/lib/lib_SoundAlive_SRC384_ver320.so \
@@ -79,31 +73,18 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib/libacryl.so:system/lib/libacryl.so \
     vendor/samsung/universal8895-common/proprietary/lib/libaudio-ril.so:system/lib/libaudio-ril.so \
     vendor/samsung/universal8895-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libblurdetection.so:system/lib/libblurdetection.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libblurdetection_interface.so:system/lib/libblurdetection_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
     vendor/samsung/universal8895-common/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
     vendor/samsung/universal8895-common/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     vendor/samsung/universal8895-common/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libfocuspeaking.so:system/lib/libfocuspeaking.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libfocuspeaking_interface.so:system/lib/libfocuspeaking_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libhifills_interface.so:system/lib/libhifills_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/universal8895-common/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
     vendor/samsung/universal8895-common/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
     vendor/samsung/universal8895-common/proprietary/lib/libsecaudiocoreutils.so:system/lib/libsecaudiocoreutils.so \
     vendor/samsung/universal8895-common/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     vendor/samsung/universal8895-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/universal8895-common/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     vendor/samsung/universal8895-common/proprietary/lib/libskeymaster.so:system/lib/libskeymaster.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libsmartfocus_interface.so:system/lib/libsmartfocus_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libsmartfocusengine.so:system/lib/libsmartfocusengine.so \
     vendor/samsung/universal8895-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/universal8895-common/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
-    vendor/samsung/universal8895-common/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -127,39 +108,23 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.gnss@1.1.so:system/lib64/android.hardware.gnss@1.1.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.nfc@1.0.so:system/lib64/android.hardware.nfc@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib64/android.hardware.nfc@1.1.so:system/lib64/android.hardware.nfc@1.1.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/hw/camera.universal8895.so:system/lib64/hw/camera.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libExynosOMX_Core.so:system/lib64/libExynosOMX_Core.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libExynosOMX_Resourcemanager.so:system/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libGrallocWrapper.so:system/lib64/libGrallocWrapper.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libIDDQD_core.so:system/lib64/libIDDQD_core.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libIDDQD_interface.so:system/lib64/libIDDQD_interface.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libacryl.so:system/lib64/libacryl.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libblurdetection.so:system/lib64/libblurdetection.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libblurdetection_interface.so:system/lib64/libblurdetection_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libexynoscamera.so:system/lib64/libexynoscamera.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libexynoscamera3.so:system/lib64/libexynoscamera3.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libexynosgscaler.so:system/lib64/libexynosgscaler.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libexynosscaler.so:system/lib64/libexynosscaler.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libfloatingfeature.so:system/lib64/libfloatingfeature.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libfocuspeaking.so:system/lib64/libfocuspeaking.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libfocuspeaking_interface.so:system/lib64/libfocuspeaking_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libhifills_interface.so:system/lib64/libhifills_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libhwjpeg.so:system/lib64/libhwjpeg.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libmaet.so:system/lib64/libmaet.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libsecaudioinfo.so:system/lib64/libsecaudioinfo.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libsecnativefeature.so:system/lib64/libsecnativefeature.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libsecril-client.so:system/lib64/libsecril-client.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libsensorlistener.so:system/lib64/libsensorlistener.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libskeymaster.so:system/lib64/libskeymaster.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libsmartfocus_interface.so:system/lib64/libsmartfocus_interface.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libsmartfocusengine.so:system/lib64/libsmartfocusengine.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libsxqk_skia.so:system/lib64/libsxqk_skia.so \
     vendor/samsung/universal8895-common/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libuniapi.so:system/lib64/libuniapi.so \
-    vendor/samsung/universal8895-common/proprietary/lib64/libuniplugin.so:system/lib64/libuniplugin.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Decoder.so:system/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.AVC.Encoder.so:system/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/universal8895-common/proprietary/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:system/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -248,15 +213,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/nfc/SGP/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/SGP/sec_s3nrn82_rfreg.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/nfc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn82_rfreg.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/plmn_delta_attaio.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_attaio.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/plmn_delta_usacdma.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usacdma.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/plmn_delta_usagsm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_usagsm.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/sensor/lhd.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensor/lhd.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/snap_gpu_kernel_32.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_32.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/etc/snap_gpu_kernel_64.bin:$(TARGET_COPY_OUT_VENDOR)/etc/snap_gpu_kernel_64.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_clm.blob:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_clm.blob \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/bcmdhd_mfg.bin_b2:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin_b2 \
@@ -282,57 +240,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/nvram.txt_r02j_b0:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram.txt_r02j_b0 \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/bcm4361B0_murata.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B0_murata.hcd \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/bcm4361B0_semco.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4361B0_semco.hcd \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/calliope_iva.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_iva.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_2l2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2l2_master_setfile.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_2l2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2l2_mode_setfile.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_fw_2l2_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2l2_3h1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_fw_2l2_imx320.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2l2_imx320.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_fw_imx333_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_imx333_3h1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_fw_imx333_imx320.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_imx333_imx320.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_imx333_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx333_master_setfile.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/companion_imx333_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx333_mode_setfile.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/dsm.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/dsm_tune.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dsm_tune.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/fimc_is_lib.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_lib.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/fimc_is_rta_2l2_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta_2l2_3h1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/fimc_is_rta_2l2_imx320.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta_2l2_imx320.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/fimc_is_rta_imx333_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta_imx333_3h1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/fimc_is_rta_imx333_imx320.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_rta_imx333_imx320.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/iva10_rt-kangchen.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/iva10_rt-kangchen.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/universal8895-common/proprietary/vendor/firmware/nfc/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nrn82_firmware.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/score_fw_dmb0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score_fw_dmb0.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/score_fw_dmb1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score_fw_dmb1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/score_fw_pmw0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score_fw_pmw0.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/score_fw_pmw1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/score_fw_pmw1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/setfile_2l2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2l2.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/setfile_3h1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_3h1.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/setfile_imx320.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx320.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/setfile_imx333.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx333.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/firmware/vts.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/vts.bin \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/gatekeeper.exynos8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/hwcomposer.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos5.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/memtrack.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/hw/sound_trigger.primary.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.universal8895.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriverArm.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/lib_SoundAlive_3DPosition_ver202.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundAlive_3DPosition_ver202.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libaboxpcmdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaboxpcmdump.so \
@@ -346,16 +261,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libhifistill_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifistill_tuning.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhumantracking_util.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2onfbadapter.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libiva_android_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libiva_android_hal.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopenvx.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libreference-ril.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
@@ -363,13 +273,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril-dsds.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsec-ril.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskeymaster3device.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_cropping.camera.samsung.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsnap_caffe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_caffe_wrapper.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_compute_wrapper.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnap_vndk.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libstagefright_bufferqueue_helper_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferqueue_helper_vendor.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_foundation.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libstagefright_omx_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_omx_utils.so \
@@ -379,11 +282,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvxu.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.bio.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
@@ -396,10 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libplaybackrecorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libplaybackrecorder.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.so \
@@ -409,10 +306,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/memtrack.universal8895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.universal8895.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libDLInterface.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDLInterface.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libOpenCv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libRSDriverArm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriverArm.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
@@ -424,17 +319,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflicker.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libhifistill.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifistill.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libhifistill_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifistill_tuning.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libhumantracking_util.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhumantracking_util.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libiva_android_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiva_android_hal.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libmpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpp.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libopenvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libopenvx.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libreference-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libreference-ril.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
@@ -442,19 +332,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libskeymaster3device.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster3device.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsmart_cropping.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsmart_cropping.camera.samsung.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsnap_caffe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_caffe.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsnap_caffe_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_caffe_wrapper.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsnap_compute.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsnap_compute_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_compute_wrapper.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomp.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndsecril-client.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvxu.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
-    vendor/samsung/universal8895-common/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.bio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.bio.so \
     vendor/samsung/universal8895-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
