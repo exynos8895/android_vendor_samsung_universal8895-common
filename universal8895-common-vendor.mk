@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000001a.tlbin \
     vendor/samsung/universal8895-common/proprietary/app/mcRegistry/fffffffff0000000000000000000001b.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001b.tlbin \
     vendor/samsung/universal8895-common/proprietary/bin/lpm:system/bin/lpm \
+    vendor/samsung/universal8895-common/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/samsung/universal8895-common/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf \
     vendor/samsung/universal8895-common/proprietary/etc/gps_debug.conf:system/etc/gps_debug.conf \
     vendor/samsung/universal8895-common/proprietary/etc/init/init.gpscommon.rc:system/etc/init/init.gpscommon.rc \
@@ -56,6 +57,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/samsung/universal8895-common/proprietary/etc/nfc_key:system/etc/nfc_key \
     vendor/samsung/universal8895-common/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
+    vendor/samsung/universal8895-common/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:system/lib/android.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.1.so:system/lib/android.hardware.gnss@1.1.so \
