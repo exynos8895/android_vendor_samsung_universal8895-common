@@ -36,15 +36,11 @@ on post-fs-data
     
 on boot
     setprop wifi.interface wlan0
+    setprop wifi.concurrent.interface swlan0
 
 service wpa_supplicant /vendor/bin/hw/wpa_supplicant \
-    -puse_p2p_group_interface=1 \
-    -O/data/vendor/wifi/wpa/sockets \
+    -O/data/vendor/wifi/wpa/sockets -puse_p2p_group_interface=1 \
     -g@android:wpa_wlan0
-    # we will start as root and wpa_supplicant will switch to user wifi
-    # after setting up the capabilities required for WEXT
-    # user wifi
-    # group wifi inet keystore
     interface android.hardware.wifi.supplicant@1.0::ISupplicant default
     interface android.hardware.wifi.supplicant@1.1::ISupplicant default
     class main

@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/mixer_paths.xml:system/etc/mixer_paths.xml \
     vendor/samsung/universal8895-common/proprietary/etc/nfc_key:system/etc/nfc_key \
     vendor/samsung/universal8895-common/proprietary/etc/nfcee_access.xml:system/etc/nfcee_access.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:system/lib/android.hardware.bluetooth.a2dp@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.0.so:system/lib/android.hardware.gnss@1.0.so \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.gnss@1.1.so:system/lib/android.hardware.gnss@1.1.so \
