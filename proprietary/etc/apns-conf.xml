@@ -1894,8 +1894,6 @@
       mnc="20"
       apn="mmsbouygtel.com"
       mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
-      mmsproxy="62.201.129.226"
-      mmsport="8080"
       type="default,supl,mms,xcap"
       protocol="IPV6"
   />
@@ -3718,25 +3716,8 @@
       mvno_type="gid"
   />
 
-  <apn carrier="Internet"
-      mcc="222"
-      mnc="01"
-      apn="internet.windmobile.ca"
-      type="default,supl"
-      protocol="IPV4V6"
-  />
 
   <apn carrier="MMS"
-      mcc="222"
-      mnc="01"
-      apn="mms.windmobile.ca"
-      mmsc="http://mms.windmobile.ca"
-      mmsproxy="74.115.197.70"
-      mmsport="8080"
-      type="mms"
-  />
-
- <apn carrier="MMS"
       mcc="222"
       mnc="01"
       authtype="0"
@@ -6379,6 +6360,14 @@
       type="mms"
   />
 
+  <apn carrier="IMS"
+      mcc="238"
+      mnc="01"
+      protocol="IPV6"
+      apn="ims"
+      type="ims"
+  />
+
   <apn carrier="TDC Internet"
       mcc="238"
       mnc="01"
@@ -6619,17 +6608,6 @@
       mnc="20"
       apn="www.internet.mtelia.dk"
       type="default,supl"
-      mvno_type="imsi"
-      mvno_match_data="2382010x"
-  />
-
-  <apn carrier="Telia SurfPort"
-      mcc="238"
-      mnc="20"
-      apn="www.internet.mtelia.dk"
-      type="default,supl"
-      mvno_type="imsi"
-      mvno_match_data="2382030x"
   />
 
   <apn carrier="Telia MMS"
@@ -6640,20 +6618,15 @@
       mmsproxy="193.209.134.131"
       mmsport="8080"
       type="mms"
-      mvno_type="imsi"
-      mvno_match_data="2382010x"
   />
 
-  <apn carrier="Telia MMS"
+  <apn carrier="IMS"
       mcc="238"
       mnc="20"
-      apn="www.mms.mtelia.dk"
-      mmsc="http://mms.telia.dk"
-      mmsproxy="193.209.134.131"
-      mmsport="8080"
-      type="mms"
-      mvno_type="imsi"
-      mvno_match_data="2382030x"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      apn="ims"
+      type="ims"
   />
 
   <apn carrier="Internet"
@@ -7485,6 +7458,15 @@
       type="mms"
   />
 
+  <apn carrier="IMS"
+      mcc="242"
+      mnc="14"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
+      apn="ims"
+      type="ims"
+  />
+
   <apn carrier="DNA Internet"
       mcc="244"
       mnc="03"
@@ -7787,6 +7769,15 @@
       mmsport="8080"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Telia FI IMS"
+      mcc="244"
+      mnc="91"
+      apn="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      type="ims"
   />
 
   <apn carrier="SONERA MMS"
@@ -8745,6 +8736,16 @@
       mmsproxy="212.2.96.16"
       mmsport="8080"
       type="mms"
+  />
+  
+  <apn carrier="IMS"
+      mcc="260"
+      mnc="01"
+      apn="IMS"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      type="ims"
+      mtu="1460"
   />
 
 <!-- Samsung edit -->
@@ -25289,7 +25290,6 @@
       protocol="IPV4V6"
   />
 
-
   <apn carrier="Mensajes Multimedia"
       mcc="334"
       mnc="020"
@@ -25356,7 +25356,8 @@
       mnc="03"
       apn="ims"
       type="ims"
-      protocol="IPV4"
+      protocol="IP"
+      user_editable="0"
   />
 
   <apn carrier="Movistar INTERNET"
@@ -25389,7 +25390,8 @@
       mnc="030"
       apn="ims"
       type="ims"
-      protocol="IPV4"
+      protocol="IP"
+      user_editable="0"
   />
 
   <apn carrier="Internet"
@@ -25398,33 +25400,41 @@
       authtype="0"
       apn="web.iusacellgsm.mx"
       type="default,supl"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS"
       mcc="334"
       mnc="05"
       authtype="0"
-      apn="mms.iusacellgsm.mx"
-      mmsc="http://mms.iusacell3g.com/"
+      apn="mms.attmex.mx"
+      mmsc="http://mms.att.com.mx"
+	  mmsproxy="129.192.129.104"
+	  mmsport="8080"
       type="mms"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Location"
       mcc="334"
       mnc="05"
-      apn="supl.iusacellgsm.mx"
+      apn="supl.attmex.mx"
       authtype="0"
       type="supl"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Modem"
       mcc="334"
       mnc="05"
-      apn="modem.iusacellgsm.mx"
-      user="iusacellgsm"
-      password="iusacellgsm"
+      apn="modem.attmex.mx"
       authtype="0"
       type="dun"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
   
   <apn carrier="IMS"
@@ -25442,33 +25452,41 @@
       authtype="0"
       apn="web.iusacellgsm.mx"
       type="default,supl"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS"
       mcc="334"
       mnc="050"
       authtype="0"
-      apn="mms.iusacellgsm.mx"
-      mmsc="http://mms.iusacell3g.com/"
+      apn="mms.attmex.mx"
+      mmsc="http://mms.att.com.mx"
+	  mmsproxy="129.192.129.104"
+	  mmsport="8080"
       type="mms"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Location"
       mcc="334"
       mnc="050"
-      apn="supl.iusacellgsm.mx"
+      apn="supl.attmex.mx"
       authtype="0"
       type="supl"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Modem"
       mcc="334"
       mnc="050"
-      apn="modem.iusacellgsm.mx"
-      user="iusacellgsm"
-      password="iusacellgsm"
+      apn="modem.attmex.mx"
       authtype="0"
       type="dun"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="IMS"
@@ -25483,62 +25501,44 @@
   <apn carrier="Location"
       mcc="334"
       mnc="090"
-      apn="location.nexteldata.com.mx"
+      apn="supl.attmex.mx"
       authtype="0"
       type="supl"
-      port="7275"
-  />
-
-  <apn carrier="Location"
-      mcc="334"
-      mnc="090"
-      apn="supl.iusacellgsm.mx"
-      authtype="0"
-      type="supl"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="MMS"
       mcc="334"
       mnc="090"
-      apn="mms.nexteldata.com.mx"
+      apn="mms.attmex.mx"
       authtype="0"
-      mmsc="http://3gmms.nexteldata.com.mx"
+      mmsc="http://mms.att.com.mx"
       mmsproxy="129.192.129.104"
       mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="MMS"
-      mcc="334"
-      mnc="090"
-      apn="mms.iusacellgsm.mx"
-      authtype="0"
-      mmsc="http://mms.iusacell3g.com/"
-      type="mms"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Modem"
       mcc="334"
       mnc="090"
-      apn="modem.nexteldata.com.mx"
+      apn="modem.attmex.mx"
       authtype="0"
       type="dun"
-  />
-
-  <apn carrier="Modem"
-      mcc="334"
-      mnc="090"
-      apn="modem.iusacellgsm.mx"
-      authtype="0"
-      type="dun"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"	  
   />
 
   <apn carrier="Internet"
       mcc="334"
       mnc="090"
-      apn="wap.nexteldata.com.mx"
+      apn="wap.attmex.mx"
       authtype="0"
       type="default"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Internet"
@@ -25547,12 +25547,14 @@
       apn="web.iusacellgsm.mx"
       authtype="0"
       type="default"
+	  protocol="IPV4V6"
+	  roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Internet"
       mcc="334"
       mnc="140"
-      apn="internet.altan.com"
+      apn="internet.altan"
       authtype="1"
       type="default,supl"
       protocol="IPV4V6"
@@ -44487,7 +44489,9 @@
       mnc="02"
       apn="ims"
       type="ims"
-      protocol="IPV4"
+      protocol="IP"
+      user_editable="0"
+      user_visible="0"
   />
 
   <apn carrier="XCAP TIGO GT"
@@ -44495,6 +44499,9 @@
       mnc="02"
       apn="XCAP"
       type="xcap"
+      protocol="IPV4V6"
+      user_editable="0"
+      user_visible="0"
   />
 
   <apn carrier="Movistar INTERNET"
@@ -44505,6 +44512,17 @@
       password="movistargt"
       type="default,supl"
       protocol="IPV4V6"
+  />
+
+  <apn carrier="Movistar INTERNET"
+      mcc="704"
+      mnc="03"
+      apn="internet.movistar.gt"
+      user="movistargt"
+      password="movistargt"
+      type="default,supl"
+      mvno_match_data="704038"
+      mvno_type="imsi"
   />
 
   <apn carrier="Movistar MMS"
@@ -45073,7 +45091,7 @@
       type="default,supl"
   />
 
-  <apn carrier="INTERNET"
+  <apn carrier="Wap"
       mcc="714"
       mnc="01"
       authtype="1"
@@ -45081,7 +45099,7 @@
       type="default,supl"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="Mms"
       mcc="714"
       mnc="01"
       authtype="1"
@@ -45237,12 +45255,13 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Movistar IMS"
+  <apn carrier="IMS"
       mcc="716"
       mnc="06"
       apn="ims"
       type="ims"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CLARO DATOS"
@@ -46217,14 +46236,6 @@
       protocol="IPV4V6"
   />
 
-  <apn carrier="Porto IMS"
-      mcc="724"
-      mnc="54"
-      apn="ims"
-      type="ims"
-      protocol="IPV4V6"
-  />
-
   <apn carrier="Internet Movil"
       mcc="730"
       mnc="01"
@@ -46491,7 +46502,7 @@
       mnc="02"
       apn="ims"
       type="ims"
-      protocol="IPV4"
+      protocol="IP"
   />
 
   <apn carrier="Movistar MMS"
@@ -46553,7 +46564,7 @@
       mnc="03"
       apn="bam.clarochile.cl"
       type="xcap"
-      protocol="IPV4"
+      protocol="IP"
   />
 
   <apn carrier="web"
@@ -47155,6 +47166,7 @@
       apn="ims"
       type="ims"
       protocol="IPV4V6"
+      user_editable="0"
   />
 
   <apn carrier="INTERNETTIGO"
@@ -47241,6 +47253,28 @@
       protocol="IPV4V6"
   />
 
+  <apn carrier="Movistar INTERNET"
+      mcc="740"
+      mnc="00"
+      apn="internet.movistar.com.ec"
+      user="movistar"
+      password="movistar"
+      type="default,supl"
+      mvno_match_data="7400051"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Movistar INTERNET"
+      mcc="740"
+      mnc="00"
+      apn="internet.movistar.com.ec"
+      user="movistar"
+      password="movistar"
+      type="default,supl"
+      mvno_match_data="7400052"
+      mvno_type="imsi"
+  />
+
   <apn carrier="Movistar MMS"
       mcc="740"
       mnc="00"
@@ -47252,6 +47286,34 @@
       mmsc="http://mms.movistar.com.ec:8088/mms/"
       type="mms"
       protocol="IPV4V6"
+  />
+
+  <apn carrier="Movistar MMS"
+      mcc="740"
+      mnc="00"
+      apn="mms.movistar.com.ec"
+      user="movistar"
+      password="movistar"
+      mmsproxy="10.3.5.50"
+      mmsport="9001"
+      mmsc="http://mms.movistar.com.ec:8088/mms/"
+      type="mms"
+      mvno_match_data="7400051"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Movistar MMS"
+      mcc="740"
+      mnc="00"
+      apn="mms.movistar.com.ec"
+      user="movistar"
+      password="movistar"
+      mmsproxy="10.3.5.50"
+      mmsport="9001"
+      mmsc="http://mms.movistar.com.ec:8088/mms/"
+      type="mms"
+      mvno_match_data="7400052"
+      mvno_type="imsi"
   />
 
   <apn carrier="Movistar MODEM"
