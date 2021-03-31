@@ -44,8 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_secondary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_secondary.xml \
     vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_video_primary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_video_primary.xml \
     vendor/samsung/universal8895-common/proprietary/etc/media_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/mixer_gains.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/mixer_gains.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/mixer_paths.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/mixer_paths.xml \
     vendor/samsung/universal8895-common/proprietary/etc/nfc_key:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc_key \
     vendor/samsung/universal8895-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.bluetooth.a2dp@1.0.so \
