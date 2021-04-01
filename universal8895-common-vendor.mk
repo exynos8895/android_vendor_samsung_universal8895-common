@@ -31,19 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/etc/gps_debug.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps_debug.conf \
     vendor/samsung/universal8895-common/proprietary/etc/init/init.gpscommon.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.gpscommon.rc \
     vendor/samsung/universal8895-common/proprietary/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nci.conf \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_ac4.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_ac4.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_ddp.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_ddp.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_google_audio.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_google_telephony.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_google_video.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_performance.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_performance.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_ape.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_ape.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_primary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_primary.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_qcp.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_qcp.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_secondary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_secondary.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_codecs_sec_video_primary.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_codecs_sec_video_primary.xml \
-    vendor/samsung/universal8895-common/proprietary/etc/media_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/media_profiles.xml \
     vendor/samsung/universal8895-common/proprietary/etc/nfc_key:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc_key \
     vendor/samsung/universal8895-common/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/samsung/universal8895-common/proprietary/lib/android.hardware.bluetooth.a2dp@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.bluetooth.a2dp@1.0.so \
