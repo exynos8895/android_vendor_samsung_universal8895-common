@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service \
     vendor/samsung/universal8895-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
+    vendor/samsung/universal8895-common/proprietary/vendor/bin/secril_config_svc:$(TARGET_COPY_OUT_VENDOR)/bin/secril_config_svc \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/abox_debug.xml:$(TARGET_COPY_OUT_VENDOR)/etc/abox_debug.xml \
     vendor/samsung/universal8895-common/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
